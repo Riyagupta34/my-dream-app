@@ -1,0 +1,36 @@
+<div id="hello">
+    <h1>Data Binding</h1>
+    <h3>Angular Databinding is used for communication.
+        It is used to communicate between your TypeScript
+        code (your business logic) and the other component
+        which is shown to the users i.e. HTML layout.
+    </h3>
+        <h4>String Interpolation -
+            is used to display dynamic data on HTML template (at user end). 
+            It facilitates you to make changes on component.ts
+            file and fetch data from there to HTML template.
+            The Interpolation markup symbol  is use to perform String 
+            Interpolation in template(HTML)file.
+        </h4>
+
+        <h3>Created a Project in Angular - {{ title }}</h3>
+        <p>I am {{age}} years old, My salary is {{salary}} rupees</p>
+
+
+        <h4>Application Created By - {{ name }}</h4>
+        <h5>{{name}} - {{salary}}</h5>
+         <h5> Addition of 50 & 20 is = {{ 50+20 }}</h5>
+         <h5> SUbtraction of 50 & 20 is = {{ 50-20 }}</h5>
+         <h5>Bonus of {{name}} = {{salary*.10}}</h5>
+         <h5>Total salary is ={{salary+salary*.10}}</h5>
+
+         <h1>Display Images using Interpolation</h1>
+         <img src={{imagePath}} width="300px" height="200px">
+
+         <h1>Method Interpolation</h1>
+         <h3>Full Name : {{ getFullName() }}</h3>
+         <h3>Today's date is : {{ convertToDate() }}</h3>
+ 
+ 
+ 
+</div>
